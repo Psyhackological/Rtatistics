@@ -10,7 +10,7 @@ chmod u+x Run.sh
 ## Zadanie 1
 W pewnym eksperymencie psychiatrycznym przeprowadzonym na grupie 42 chorych otrzymano nastepujace wyniki: (w %) 34.8, 33.9, 32.6, 49.4, 44.9, 55.2, 48.5, 40.3, 34.0, 42.1, 17.9, 36.0, 21.2, 35.9, 41.2, 40.9, 16.9, 42.9, 28.7, 51.9, 24.1, 29.1, 44.6, 41. 2, 17.0, 29.8, 35.0, 51.7, 42.9, 54.2, 25.9, 30.3, 36.9, 19.2, 59.1, 31.3, 50.0, 19.8, 30.6, 31.7, 28.8, 30.0. Czy na podstawie tych danych mozna twierdzic, ze sredni wynik jest rowny 50?
 
-![Zadanie1.jpeg](Zadanie1.jpeg)
+![Zadanie1.jpeg](img/Zadanie1.jpeg)
 
 ```R
 [1] "Zadanie 1"
@@ -31,12 +31,12 @@ mean of x
 ## Zadanie 2
 Zbadano w 81 wylosowanych zakladach pewnej galezi przemyslowej koszty materialowe przy produkcji pewnego wyrobu i otrzymano srednia x = 540 oraz sn = 150. Na poziomie istotnosci α = 0.05 zweryfikowac hipoteze, ze srednie koszty materialowe wynosza 600. 
 
-![Zadanie2.jpeg](Zadanie2.jpeg)
+![Zadanie2.jpeg](img/Zadanie2.jpeg)
 
 ## Zadanie 3
 Wiadomo, ze rozklad wynikow pomiarow glebokosci morza w pewnym rejonie jest normalny z odchyleniem standardowym Sn−1 = 5 m. Dokonano 5 niezaleznych pomiarow i otrzymano wyniki (w m): 862, 870, 876, 866, 871. Na poziomie istotnosci α = 0.05 zweryfikowac hipoteze, ze srednia glebokosc morza w tym rejonie jest rowna 870 m. 
 
-![Zadanie3.jpeg](Zadanie3.jpeg)
+![Zadanie3.jpeg](img/Zadanie3.jpeg)
 
 ```R
 [1] "Zadanie 3 (idk)"
@@ -57,7 +57,7 @@ mean of x
 ## Zadanie 4
 Automat produkuje okreslonych wymiarow blaszki o nominalnej grubosci 0.04 mm. Wylosowana proba 25 blaszek dala srednia grubosc x = 0.037 mm oraz sn−1 = 0.05 mm. Czy mozna zatem twierdzic, ze produkowane blaszki sa ciensze niz 0.04 mm ? Przyjac poziom ufnosci α = 0.01. 
 
-![Zadanie4.jpeg](Zadanie4.jpeg)
+![Zadanie4.jpeg](img/Zadanie4.jpeg)
 
 ```R
 [1] "Zadanie 4 (idk)"
@@ -67,7 +67,7 @@ Automat produkuje okreslonych wymiarow blaszki o nominalnej grubosci 0.04 mm. Wy
 ## Zadanie 5
 Wylosowano niezaleznie 10 indywidualnych gospodarstw rolnych w pewnej wsi i otrzymano dla nich nastepujace wielkosci uzyskanych plonow owsa (w q/ha); 18.1, 17.0, 17.5, 17.8, 18.3, 16.7, 18.0, 15.9, 17.6, 18.1. Na poziomie istotnosci α = 0.10 zweryfikowac hipoteze, ze sredni plon owsa w tej wsi wynosi 18q/ha. 
 
-![Zadanie5.jpeg](Zadanie5.jpeg)
+![Zadanie5.jpeg](img/Zadanie5.jpeg)
 
 ```R
 [1] "Zadanie 5"
