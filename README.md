@@ -10,4 +10,4 @@ Rscript path/to/file.R
 
 ## Contents
 - [Przedzialy Ufnosci](PrzedzialyUfnosci)
-- [Testowanie Hipotez Statystycznych](TestowanieHipotezStatystycznych)
+- [Testowanie Hipotez Statystycznych](TestowanieHipotez)
