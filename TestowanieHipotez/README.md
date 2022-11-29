@@ -36,8 +36,6 @@ Zbadano w 81 wylosowanych zakladach pewnej galezi przemyslowej koszty materialow
 ## Zadanie 3
 Wiadomo, ze rozklad wynikow pomiarow glebokosci morza w pewnym rejonie jest normalny z odchyleniem standardowym Sn−1 = 5 m. Dokonano 5 niezaleznych pomiarow i otrzymano wyniki (w m): 862, 870, 876, 866, 871. Na poziomie istotnosci α = 0.05 zweryfikowac hipoteze, ze srednia glebokosc morza w tym rejonie jest rowna 870 m. 
 
-![Zadanie3.jpeg](img/Zadanie3.jpeg)
-
 ```R
 [1] "Zadanie 3 (idk)"
 [1] -0.4472136
