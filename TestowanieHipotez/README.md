@@ -233,3 +233,50 @@ mean of x mean of y
 [1] -1.644854
 [1] 1.644854
 ```
+
+## Zadanie 15
+Zadanie 15 W celu stwierdzenia czy podanie pewnego preparatu farmaceutycznego zmienia fakcje pewnego bialka w moczu krolikow, dokonano 16 pomiarow frakcji tego bialka w grupie kontrolnej oraz 25 pomiarow w grupie krolikow, ktorym podano preparat farmaceutyczny. Wyniki byly nastepujace (w %):
+
+- Grupa kontrolna 18.7, 7.4, 0.8, 34.5, 45.5, 10.1, 19.4, 40.02, 11.5, 19.2, 39.0, 1.0, 11.2, 16.1, 3.7, 7.9
+- Grupa zabiegowa: 27.4, 13.9, 10.3, 0.8, 9.6, 5.7, 3.0, 19.1, 4.8, 12.2, 19.2, 20.8, 5.1, 18.5, 8.8, 16.8, 20.5, 1.9, 12.5, 28.7, 11.5, 17.5, 35.6, 6.3, 4.0
+
+Na poziomie istotnosci α = 0.05 zweryfikowac hipoteze, ze srednie frakcje badanego bialka w moczu krolikow, ktorym nie podawano preparatu i krolikow, ktore go otrzymaly sa identyczne.
+
+```R
+[1] "Zadanie 15"
+
+     Welch Two Sample t-test
+
+data:  x and y
+t = 1.1165, df = 22.528, p-value = 0.276
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -3.844147 12.836647
+sample estimates:
+mean of x mean of y
+ 17.87625  13.38000
+
+[1] -1.959964
+[1] 1.959964
+```
+
+## Zadanie 16
+Dokonano 10 pomiarow tego samego napiecia pradu przy uzyciu dwu roznych woltomierzy. Dla pierwszego woltomierza otrzymano nastepujace wyniki (w V): 1.07, 1.13, 1.15, 1.11, 1.09, 1.10, 1.14, 1.15, 1.11; natomiast dla drugiego otrzymano 1.08, 1.05, 1.03, 1.06, 1.05, 1.12, 1.06, 1.02, 1.08, 1.15. Na poziomie istotnosci α = 0.01 zweryfikowac hipoteze o jednakowych wynikach pomiaru napiecia obu woltomierzy.
+
+```R
+[1] "Zadanie 16"
+
+     Welch Two Sample t-test
+
+data:  x and y
+t = 2.9882, df = 16.107, p-value = 0.008641
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.01357812 0.07975521
+sample estimates:
+mean of x mean of y
+ 1.116667  1.070000
+
+[1] -2.575829
+[1] 2.575829
+```
