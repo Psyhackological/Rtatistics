@@ -7,8 +7,11 @@ My polish R notes about statistics in my Computer Science class.
 ```console
 Rscript path/to/file.R 
 ```
+## Contents
+- [Przedzialy Ufnosci](PrzedzialyUfnosci)
+- [Testowanie Hipotez Statystycznych](TestowanieHipotez)
 
-## Explanation of the various terms in R
+## Function Definitions
 
 ### t.test()
 
@@ -127,7 +130,7 @@ length("hello")  # Output: 5
 
 Funkcja length() jest czesto uzywana w programowaniu do okreslenia rozmiaru obiektu lub do iteracji po jego elementach. Jest to prosty i wydajny sposob na znalezienie liczby elementow w obiekcie, niezaleznie od jego typu.
 
-### alpha (alfa)
+### alpha (alfa) - α
 
 W R, alfa jest parametrem, ktory moze byc uzywany w roznych funkcjach do okreslenia poziomu istotnosci lub poziomu ufnosci.
 
@@ -137,7 +140,7 @@ Poziom ufnosci to prawdopodobienstwo, ze przedzial ufnosci zawiera prawdziwy par
 
 Parametr alfa jest waznym pojeciem w analizie statystycznej, poniewaz okresla poziom ryzyka, ktore jestes w stanie zaakceptowac przy podejmowaniu decyzji na podstawie testow statystycznych. Nizszy poziom alfa (np. 0,01) zwieksza ryzyko odrzucenia hipotezy zerowej, gdy jest ona prawdziwa (tj. blad typu I), ale zwieksza rowniez moc testu do wykrycia prawdziwej roznicy miedzy grupami. Wyzszy poziom alfa (np. 0,10) zmniejsza ryzyko bledu typu I, ale zmniejsza tez moc testu do wykrycia prawdziwej roznicy.
 
-### sigma
+### sigma - σ
 
 W R, sigma jest parametrem, ktory moze byc uzywany w roznych funkcjach do okreslenia odchylenia standardowego rozkladu.
 
@@ -150,6 +153,3 @@ Parametr sigma jest waznym pojeciem w analizie statystycznej, poniewaz okresla r
 
 W analizie statystycznej poziom ufnosci odnosi sie do prawdopodobienstwa, ze przedzial ufnosci zawiera prawdziwy parametr populacji. Na przyklad, jesli szacujemy srednia populacji przy uzyciu sredniej z proby i obliczamy 95% przedzial ufnosci dla tej sredniej, oznacza to, ze istnieje 95% prawdopodobienstwo, ze prawdziwa srednia populacji lezy w przedziale ufnosci.
 
-## Contents
-- [Przedzialy Ufnosci](PrzedzialyUfnosci)
-- [Testowanie Hipotez Statystycznych](TestowanieHipotez)
