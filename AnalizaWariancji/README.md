@@ -1,3 +1,5 @@
+# Analiza Wariancji
+
 ### Zadania z pliku [lista5_analiza_wariancji.pdf](lista5_analiza_wariancji.pdf).
 
 # Wyniki skryptow

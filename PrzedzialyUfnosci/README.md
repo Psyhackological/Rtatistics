@@ -1,3 +1,5 @@
+# Przedzialy ufnosci
+
 ### Zadania z pliku [przedzialy_ufnosci.pdf](przedzialy_ufnosci.pdf).
 
 # Wyniki skryptow
