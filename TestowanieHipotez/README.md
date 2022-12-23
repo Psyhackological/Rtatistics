@@ -1,4 +1,4 @@
-### Zadania z pliku PDF [testowanie_hipotez](testowanie_hipotez.pdf).
+### Zadania z pliku [testowanie_hipotez.pdf](testowanie_hipotez.pdf).
 
 # Wyniki skryptow
 
