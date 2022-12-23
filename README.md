@@ -7,13 +7,28 @@ My polish R notes about statistics in my Computer Science class.
 ```console
 Rscript path/to/file.R 
 ```
-## Contents
+
+# Topics
 - [Przedzialy Ufnosci](PrzedzialyUfnosci)
 - [Testowanie Hipotez Statystycznych](TestowanieHipotez)
+- [Analiza Wariancji](AnalizaWariancji)
 
-## Function Definitions
+# Definitions
+- [Przedzial ufnosci](#przedzial-ufnosci)
+- [t.test()](#ttest)
+- [qnorm()](#qnorm)
+- [mean()](#mean)
+- [qt()](#qt)
+- [sd()](#sd)
+- [length()](#length)
+- [alfa / α](#alfa--α)
+- [sigma / σ](#sigma--σ)
 
-### t.test()
+## Przedzial ufnosci
+
+W analizie statystycznej poziom ufnosci odnosi sie do prawdopodobienstwa, ze przedzial ufnosci zawiera prawdziwy parametr populacji. Na przyklad, jesli szacujemy srednia populacji przy uzyciu sredniej z proby i obliczamy 95% przedzial ufnosci dla tej sredniej, oznacza to, ze istnieje 95% prawdopodobienstwo, ze prawdziwa srednia populacji lezy w przedziale ufnosci.
+
+## t.test()
 
 W R, t.test() jest funkcja sluzaca do przeprowadzania testow t. Sluzy ona do okreslenia, czy istnieje znaczaca roznica miedzy srednimi dwoch grup.
 
@@ -29,7 +44,7 @@ Jesli wartosc p jest mniejsza od pewnego progu (zwykle 0,05), mozna stwierdzic, 
 
 Nalezy pamietac, ze funkcja t.test() zaklada, ze dane maja rozklad normalny i ze wariancje obu grup sa rowne. Jesli te zalozenia nie sa spelnione, byc moze trzeba bedzie uzyc innego testu, np. testu sumy rang Wilcoxona lub testu U Manna-Whitneya.
 
-### qnorm()
+## qnorm()
 W R, qnorm() jest funkcja sluzaca do obliczania funkcji kwantyla (znanej rowniez jako odwrotna funkcja rozkladu skumulowanego) dla rozkladu normalnego.
 
 Rozklad normalny jest ciaglym rozkladem prawdopodobienstwa z krzywa w ksztalcie dzwonu. Jest on zdefiniowany przez swoja srednia i odchylenie standardowe. Funkcja kwantyla dla rozkladu normalnego okresla taka wartosc zmiennej losowej, przy ktorej uzyskuje sie dane prawdopodobienstwo.
@@ -46,7 +61,7 @@ qnorm(0.95)
 
 Funkcja qnorm() jest czesto uzywana w analizie statystycznej do znalezienia wartosci krytycznych rozkladu normalnego, ktore sa uzywane do okreslenia, czy probka rozni sie znaczaco od populacji. Moze byc rowniez uzywana do obliczania przedzialow ufnosci oraz do tworzenia przewidywan opartych na prawdopodobienstwie.
 
-### mean()
+## mean()
 
 W R, mean() jest funkcja, ktora oblicza srednia arytmetyczna wektora liczbowego. srednia arytmetyczna, zwana rowniez srednia, jest suma elementow wektora podzielona przez liczbe elementow.
 
@@ -65,7 +80,7 @@ Wyjsciem tego kodu bedzie wartosc 3, ktora jest srednia arytmetyczna elementow w
 
 Funkcja mean() jest czesto uzywana w analizie statystycznej do podsumowania tendencji centralnej zbioru danych. Jest to prosta miara tendencji centralnej, ktora jest latwa do obliczenia i zrozumienia, ale moga na nia wplywac wartosci odstajace (bardzo duze lub male wartosci) w danych. Inne miary tendencji centralnej, takie jak mediana i tryb, moga byc bardziej odpowiednie w niektorych sytuacjach.
 
-### qt()
+## qt()
 
 W R, qt() jest funkcja obliczajaca funkcje kwantyla (znana rowniez jako odwrotna funkcja rozkladu skumulowanego) dla rozkladu t.
 
@@ -83,7 +98,7 @@ qt(0.95, df = 10)
 
 Funkcja qt() jest czesto uzywana w analizie statystycznej do znalezienia wartosci krytycznych rozkladu t, ktore sa uzywane do okreslenia, czy probka rozni sie znaczaco od populacji. Moze byc rowniez uzywana do obliczania przedzialow ufnosci i dokonywania przewidywan na podstawie prawdopodobienstwa.
 
-### sd()
+## sd()
 
 W R, sd() jest funkcja, ktora oblicza odchylenie standardowe wektora liczbowego. Odchylenie standardowe jest miara rozproszenia lub zmiennosci w zbiorze danych. Jest to pierwiastek kwadratowy z wariancji, ktora jest srednia kwadratowych odchylen od sredniej.
 
@@ -103,7 +118,7 @@ Wyjsciem tego kodu bedzie 1.5811, czyli odchylenie standardowe elementow wektora
 
 Funkcja sd() jest czesto uzywana w analizie statystycznej do podsumowania rozproszenia lub zmiennosci zbioru danych. Jest to uzyteczna miara rozproszenia, poniewaz jest wyrazona w tych samych jednostkach co dane, co ulatwia interpretacje i porownanie. Jednak moze byc wrazliwa na wartosci odstajace (bardzo duze lub male wartosci) w danych, a inne miary rozproszenia, takie jak zakres miedzykwartylowy, moga byc bardziej odpowiednie w niektorych sytuacjach.
 
-### length()
+## length()
 
 W R, length() jest funkcja, ktora oblicza dlugosc obiektu. Dlugosc obiektu to liczba elementow, ktore on zawiera.
 
@@ -130,7 +145,7 @@ length("hello")  # Output: 5
 
 Funkcja length() jest czesto uzywana w programowaniu do okreslenia rozmiaru obiektu lub do iteracji po jego elementach. Jest to prosty i wydajny sposob na znalezienie liczby elementow w obiekcie, niezaleznie od jego typu.
 
-### alpha (alfa) - α
+## alfa / α
 
 W R, alfa jest parametrem, ktory moze byc uzywany w roznych funkcjach do okreslenia poziomu istotnosci lub poziomu ufnosci.
 
@@ -140,7 +155,7 @@ Poziom ufnosci to prawdopodobienstwo, ze przedzial ufnosci zawiera prawdziwy par
 
 Parametr alfa jest waznym pojeciem w analizie statystycznej, poniewaz okresla poziom ryzyka, ktore jestes w stanie zaakceptowac przy podejmowaniu decyzji na podstawie testow statystycznych. Nizszy poziom alfa (np. 0,01) zwieksza ryzyko odrzucenia hipotezy zerowej, gdy jest ona prawdziwa (tj. blad typu I), ale zwieksza rowniez moc testu do wykrycia prawdziwej roznicy miedzy grupami. Wyzszy poziom alfa (np. 0,10) zmniejsza ryzyko bledu typu I, ale zmniejsza tez moc testu do wykrycia prawdziwej roznicy.
 
-### sigma - σ
+## sigma / σ
 
 W R, sigma jest parametrem, ktory moze byc uzywany w roznych funkcjach do okreslenia odchylenia standardowego rozkladu.
 
@@ -148,8 +163,3 @@ Odchylenie standardowe jest miara rozproszenia lub zmiennosci w zbiorze danych. 
 W funkcji qnorm(), sigma moze byc uzyta do okreslenia odchylenia standardowego rozkladu normalnego. Domyslnie odchylenie standardowe jest ustawione na 1.
 
 Parametr sigma jest waznym pojeciem w analizie statystycznej, poniewaz okresla rozrzut lub dyspersje rozkladu. Wieksze odchylenie standardowe oznacza, ze dane sa bardziej rozproszone lub zmienne, podczas gdy mniejsze odchylenie standardowe oznacza, ze dane sa bardziej skoncentrowane lub spojne. Odchylenie standardowe jest czesto uzywane do porownywania rozproszenia roznych zbiorow danych lub do obliczania przedzialow ufnosci.
-
-### przedzial ufnosci
-
-W analizie statystycznej poziom ufnosci odnosi sie do prawdopodobienstwa, ze przedzial ufnosci zawiera prawdziwy parametr populacji. Na przyklad, jesli szacujemy srednia populacji przy uzyciu sredniej z proby i obliczamy 95% przedzial ufnosci dla tej sredniej, oznacza to, ze istnieje 95% prawdopodobienstwo, ze prawdziwa srednia populacji lezy w przedziale ufnosci.
-

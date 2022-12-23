@@ -1,4 +1,4 @@
-### Zadania z pliku PDF [przedzialy_ufnosci.pdf](przedzialy_ufnosci.pdf).
+### Zadania z pliku [przedzialy_ufnosci.pdf](przedzialy_ufnosci.pdf).
 
 # Wyniki skryptow
 
