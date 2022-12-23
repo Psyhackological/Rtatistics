@@ -9,13 +9,13 @@ chmod u+x Run.sh
 
 ## Wstęp do zadania
 
-![Zadanie1.1.jpeg](Zadanie1.1.jpeg)
+![Zadanie1.1.jpeg](img/Zadanie1.1.jpeg)
 
-![Zadanie1.2.jpeg](Zadanie1.2.jpeg)
+![Zadanie1.2.jpeg](img/Zadanie1.2.jpeg)
 
-![Zadanie1.3.jpeg](Zadanie1.3.jpeg)
+![Zadanie1.3.jpeg](img/Zadanie1.3.jpeg)
 
-![Zadanie1.4.jpeg](Zadanie1.4.jpeg)
+![Zadanie1.4.jpeg](img/Zadanie1.4.jpeg)
 
 
 ## Zadanie 1
