@@ -23,6 +23,7 @@ Rscript path/to/file.R
 - [Przedzialy Ufnosci](PrzedzialyUfnosci)
 - [Testowanie Hipotez Statystycznych](TestowanieHipotez)
 - [Analiza Wariancji](AnalizaWariancji)
+- [Regresja Liniowa](RegresjaLiniowa)
 
 # Definitions
 - [Przedzial ufnosci](#przedzial-ufnosci)

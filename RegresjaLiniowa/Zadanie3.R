@@ -1,0 +1,5 @@
+x = sample(0:100, 100, replace=TRUE)
+y = 3 * x + 5 + rnorm(100,0,5)
+cor(x,y)
+plot(x,y)
+summary(lm(y~x))
