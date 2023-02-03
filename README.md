@@ -1,7 +1,7 @@
 # Rtatistics
 My polish R notes about statistics in my Computer Science class.
 
-![Rlogo.svg](https://www.r-project.org/logo/Rlogo.svg)
+<img src="https://www.r-project.org/logo/Rlogo.svg" alt="Rlogo.svg" width="360">
 
 ## !!! INFO O KOLOKWIUM !!!
 - 7 luty
