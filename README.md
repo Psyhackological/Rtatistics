@@ -7,7 +7,7 @@ My polish R notes about statistics in my Computer Science class.
 - 7 luty
 - 9:45 na Teams
 - 10:00 na Moodle
-- Wartości do wpisywania jako odpowiedx
+- Wartości do wpisywania jako odpowiedz
 - Wlaczona kamerka na smartfonie
 - R na kompie
 - Dopoki czas sie skonczy mozna wrocic do testu (nawet jak wywali)
