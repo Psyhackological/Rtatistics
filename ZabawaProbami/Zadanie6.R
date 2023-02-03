@@ -1,0 +1,8 @@
+print("Zadanie 6")
+X <- rnorm(30, mean = 2, sd = 3)
+Y <-rnorm(30, mean = 3, sd = 3)
+Z <-rnorm(30, mean = 5, sd = 3)
+df = data.frame(X, Y, Z)
+library("reshape2")
+dane = melt(df)
+summary(aov(value~variable, data=dane))

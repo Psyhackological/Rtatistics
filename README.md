@@ -24,6 +24,8 @@ Rscript path/to/file.R
 - [Testowanie Hipotez Statystycznych](TestowanieHipotez)
 - [Analiza Wariancji](AnalizaWariancji)
 - [Regresja Liniowa](RegresjaLiniowa)
+- [Zabawa Probami](ZabawaProbami)
+- [Wyklady](Wyklady)
 
 # Definitions
 - [Przedzial ufnosci](#przedzial-ufnosci)
