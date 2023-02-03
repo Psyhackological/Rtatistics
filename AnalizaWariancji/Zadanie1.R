@@ -1,4 +1,3 @@
-# Zadanie 1
 print("Zadanie 1")
 g1=c(10,8,7,6,11)
 g2=c(7,10,6,14,5)

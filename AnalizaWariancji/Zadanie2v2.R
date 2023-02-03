@@ -1,0 +1,10 @@
+print("Zadanie 2v2")
+library("reshape2")
+A <- c(19, 20, 10, 14)
+B <- c(17, 20, 11, 15)
+C <- c(20, 19, 9, 12)
+
+dane <- data.frame(A, B, C)
+dane <- melt(dane, id = c())
+print(aov(value ~ variable, dane))
+print(summary(aov(value ~ variable, dane)))
