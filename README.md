@@ -28,17 +28,17 @@ Rscript path/to/file.R
 - [Wyklady](Wyklady)
 
 # Praktyka
-- aov() (Analysis of Variance) - funkcja służąca do wyznaczenia testu wariancji dla danych w celu weryfikacji równości średnich dwóch lub więcej group.
+- aov() (Analysis of Variance) - funkcja służąca do wyznaczenia testu wariancji dla danych w celu weryfikacji równości średnich co najmniej dwóch grup.
 - c() (Combine) - funkcja łącząca kilka elementów w jedną listę.
 - chisq.test() (Chi-Squared Test) - funkcja wyznaczająca test chi-kwadratowy, który jest używany do weryfikacji czy istnieje zależność między dwoma zmiennymi kategorycznymi.
-- cor() (Correlation) - funkcja obliczająca korelację między dwoma lub więcej zmiennymi.
+- cor() (Correlation) - funkcja obliczająca korelację między co najmniej dwoma zmiennymi.
 - data.frame() - funkcja tworząca obiekt typu data frame, który jest to tabela z danymi, składająca się z wierszy i kolumn.
 - length() - funkcja zwracająca długość (liczbę elementów) w danym obiekcie, np. listy.
 - library() - funkcja wczytująca określoną bibliotekę, która zawiera funkcje i narzędzia, których można użyć w dalszej analizie danych.
 - lm() (Linear Model) - funkcja tworząca model liniowy, który jest używany do prognozowania wartości jednej zmiennej na podstawie wartości innej zmiennej.
 - max() - funkcja zwracająca maksymalną wartość w danym obiekcie.
 - mean() - funkcja zwracająca średnią wartość w danym obiekcie.
-- melt() - funkcja przekształcająca dane w postaci szerokiej do danych w postaci wąskiej, gdzie dane są przedstawione w postaci dwóch kolumn - jedna z nazwą zmiennej, a druga z wartością tej zmiennej.
+- melt() - funkcja przekształcająca dane w postaci szerokiej do danych w postaci wąskiej, gdzie dane są przedstawione w postaci dwóch kolumn — jedna z nazwą zmiennej, a druga z wartością tej zmiennej.
 - paste() - funkcja łącząca kilka tekstów w jeden ciąg znaków.
 - plot() - funkcja rysująca wykres dla danych.
 - print() - funkcja wyświetlająca dane na ekranie.
@@ -52,14 +52,14 @@ Rscript path/to/file.R
 - sample() - funkcja wyznaczająca losowy próbkę z danych.
 - sd() (Standard Deviation) - funkcja obliczająca odchylenie standardowe danych.
 - seq() (Sequence) - funkcja tworząca ciąg liczb.
-- sprintf() (String Print Format) - funkcja formatująca text.
+- sprintf() (String Print Format) - funkcja formatująca tekst.
 - sqrt() (Square Root) - funkcja obliczająca pierwiastek kwadratowy z liczby.
 - summary() - funkcja wyświetlająca podsumowanie danych, np. średnia, odchylenie standardowe, minimum i maksimum.
 - table() - funkcja tworząca tabelę częstości dla danych kategorycznych.
-- t.test() (Student's t-Test) - funkcja wyznaczająca test t-Studenta, który jest używany do weryfikacji równości średnich dwóch group.
-- var() (Variance) - funkcja obliczająca wariancję danych. Wariancja jest miarą rozproszenia danych wokół średniej, im większa wariancja tym bardziej dane są rozproszone. W R, funkcja var() jest używana do obliczania wariancji zestawu danych.
+- t.test() (Student's t-Test) - funkcja wyznaczająca test t-Studenta, który jest używany do weryfikacji równości średnich dwóch grup.
+- var() (Variance) - funkcja obliczająca wariancję danych. Wariancja jest miarą rozproszenia danych wokół średniej, im większa wariancja, tym bardziej dane są rozproszone. W R funkcja var() jest używana do obliczania wariancji zestawu danych.
 
 # Teoria
 - przedział ufności (Confidence Interval) - jest to zakres wartości, który z pewnym prawdopodobieństwem (zazwyczaj 95%) zawiera rzeczywistą wartość parametru, który jest badany. Przedział ufności jest używany, aby ocenić niepewność wyniku badania statystycznego.
-- alpha / alfa / α - jest to poziom istotności, który określa prawdopodobieństwo popełnienia błędu I rodzaju (falszywne wykrycie hipotezy alternatywnej). Alfa jest zazwyczaj ustawiana na 0,05 lub 0,01, co oznacza, że istnieje maksymalnie 5% lub 1% prawdopodobieństwo błędu I rodzaju.
+- alpha / alfa / α - jest to poziom istotności, który określa prawdopodobieństwo popełnienia błędu I rodzaju (fałszywe wykrycie hipotezy alternatywnej). Alfa jest zazwyczaj ustawiana na 0,05 lub 0,01, co oznacza, że istnieje maksymalnie 5% lub 1% prawdopodobieństwa błędu I rodzaju.
 - sd / Sigma / σ (Standard Deviation) - jest to miernik rozproszenia danych wokół średniej. Im większe σ, tym bardziej dane są rozproszone. Standardowe odchylenie jest używane do określenia rozkładu danych i jest często używane w statystyce do wyznaczania przedziałów ufności dla średniej.
