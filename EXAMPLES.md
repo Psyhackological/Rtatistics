@@ -1,7 +1,7 @@
 # Examples with ChatGPT
 
 ## funkcja()
-Zwięzły opis do czego.
+Zwięzły opis, do czego się jej używa.
 
 ```R
 # kod R
@@ -11,7 +11,7 @@ Zwięzły opis do czego.
 ```
 
 ## aov()
-Używana do wykonywania analizy wariancji, by zbadać różnice między średnimi wartościami kilku grup.
+Używana do wykonywania analizy wariancji, by zbadać różnice między średnimi wartościami kilku group.
 
 ```R
 fit <- aov(Sepal.Length ~ Species, data = iris)
