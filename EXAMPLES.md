@@ -37,7 +37,7 @@ print(vectors)
 ```
 
 ## chisq.test()
-Używana do testowania równowagi proporcji w dwóch lub więcej kategoriach.
+Używana do testowania równowagi proporcji w co najmniej dwóch kategorii.
 
 ```R
 table <- table(iris$Species)
@@ -228,6 +228,7 @@ qt(0.975, df = 30)
 
 ## rbind()
 Łączy dwa lub więcej zbiorów danych w jeden wiersz po wierszu.
+
 ```R 
 dane1 <- data.frame(col1 = c(1,2,3), col2 = c(4,5,6))
 dane2 <- data.frame(col1 = c(7,8,9), col2 = c(10,11,12))
@@ -328,7 +329,7 @@ sqrt(9)
 Generuje skrócony raport ze statystyk opisowych dla wejściowych danych.
 
 ```R
-dane <- rnorm(10) # Tworzenie danych losowych
+dane <- rnorm(10)
 summary(dane)
 ```
 ```console
@@ -349,7 +350,7 @@ print(tabela)
 Test t-Studenta.
 
 ```R
-dane <- rnorm(10) # Tworzenie danych losowych
+dane <- rnorm(10)
 t.test(dane)
 ```
 ```console
@@ -369,7 +370,7 @@ sample estimates:
 Liczy wariancję danych.
 
 ```R
-dane <- rnorm(10) # Tworzenie danych losowych
+dane <- rnorm(10)
 var(dane)
 ```
 ```console
