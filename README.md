@@ -27,8 +27,11 @@ Rscript path/to/file.R
 - [Zabawa Probami](ZabawaProbami)
 - [Wyklady](Wyklady)
 
+# Przyklady
+[Kliknij tutaj by je zobaczyc w akcji!](EXAMPLES.md)
+
 # Praktyka
-- aov() (Analysis of Variance) - funkcja służąca do wyznaczenia testu wariancji dla danych w celu weryfikacji równości średnich co najmniej dwóch grup.
+- aov() (Analysis of Variance) - funkcja służąca do wyznaczenia testu wariancji dla danych w celu weryfikacji równości średnich co najmniej dwóch group.
 - c() (Combine) - funkcja łącząca kilka elementów w jedną listę.
 - chisq.test() (Chi-Squared Test) - funkcja wyznaczająca test chi-kwadratowy, który jest używany do weryfikacji czy istnieje zależność między dwoma zmiennymi kategorycznymi.
 - cor() (Correlation) - funkcja obliczająca korelację między co najmniej dwoma zmiennymi.
@@ -52,14 +55,14 @@ Rscript path/to/file.R
 - sample() - funkcja wyznaczająca losowy próbkę z danych.
 - sd() (Standard Deviation) - funkcja obliczająca odchylenie standardowe danych.
 - seq() (Sequence) - funkcja tworząca ciąg liczb.
-- sprintf() (String Print Format) - funkcja formatująca tekst.
+- sprintf() (String Print Format) - funkcja formatująca text.
 - sqrt() (Square Root) - funkcja obliczająca pierwiastek kwadratowy z liczby.
 - summary() - funkcja wyświetlająca podsumowanie danych, np. średnia, odchylenie standardowe, minimum i maksimum.
 - table() - funkcja tworząca tabelę częstości dla danych kategorycznych.
-- t.test() (Student's t-Test) - funkcja wyznaczająca test t-Studenta, który jest używany do weryfikacji równości średnich dwóch grup.
+- t.test() (Student's t-Test) - funkcja wyznaczająca test t-Studenta, który jest używany do weryfikacji równości średnich dwóch group.
 - var() (Variance) - funkcja obliczająca wariancję danych. Wariancja jest miarą rozproszenia danych wokół średniej, im większa wariancja, tym bardziej dane są rozproszone. W R funkcja var() jest używana do obliczania wariancji zestawu danych.
 
 # Teoria
 - przedział ufności (Confidence Interval) - jest to zakres wartości, który z pewnym prawdopodobieństwem (zazwyczaj 95%) zawiera rzeczywistą wartość parametru, który jest badany. Przedział ufności jest używany, aby ocenić niepewność wyniku badania statystycznego.
-- alpha / alfa / α - jest to poziom istotności, który określa prawdopodobieństwo popełnienia błędu I rodzaju (fałszywe wykrycie hipotezy alternatywnej). Alfa jest zazwyczaj ustawiana na 0,05 lub 0,01, co oznacza, że istnieje maksymalnie 5% lub 1% prawdopodobieństwa błędu I rodzaju.
-- sd / Sigma / σ (Standard Deviation) - jest to miernik rozproszenia danych wokół średniej. Im większe σ, tym bardziej dane są rozproszone. Standardowe odchylenie jest używane do określenia rozkładu danych i jest często używane w statystyce do wyznaczania przedziałów ufności dla średniej.
+- alpha / alfa / α - jest to poziom istotności, który określa prawdopodobieństwo popełnienia błędu I rodzaju (fałszywe wykrycie hipotezy alternatywnej). Alfa jest zazwyczaj ustawiana na 0.05 lub 0.01, co oznacza, że istnieje maksymalnie 5% lub 1% prawdopodobieństwa błędu I rodzaju.
+- sd / sigma / σ (Standard Deviation) - jest to miernik rozproszenia danych wokół średniej. Im większe σ, tym bardziej dane są rozproszone. Standardowe odchylenie jest używane do określenia rozkładu danych i jest często używane w statystyce do wyznaczania przedziałów ufności dla średniej.
